@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+    <ModInfo>
+        <Name value="SpazLife Custom"/>
+        <Description value="Streamlines the UI and offers some quality of life improvements"/>
+        <Author value="Sparrow, LightAir"/>
+        <Version value="1.1.1" compat="A18.1"/>
+        <Website value=""/>
+    </ModInfo>
+</xml>

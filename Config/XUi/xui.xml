@@ -1,0 +1,33 @@
+<configs>
+    <append xpath="/xui/ruleset[@name='default']/window_group[@name='toolbelt']">
+        <window name="HUDBuffDurations" />
+        <window name="HUDVehicleStatBars" anchor="CenterBottom"/>
+        <window name="HUDStatBars" anchor="RightBottom"/>
+    </append>
+    
+    <append xpath="/xui/ruleset[@name='default']/window_group[@controller]" >
+        <window name="window_Spaz_menuTime" />
+        <window name="window_Spaz_menuStatsHUD" />
+    </append>
+    
+    <append xpath="/xui/ruleset[@name='default']/window_group[@name='map']" >
+        <window name="window_Spaz_menuTime" />
+        <window name="window_Spaz_menuStatsHUD" />
+    </append>
+    
+    <append xpath="/xui/ruleset[@name='default']/window_group[@name='players']" >
+        <window name="window_Spaz_menuTime" />
+        <window name="window_Spaz_menuStatsHUD" />
+    </append>
+
+    <!-- Центрирование левого блока -->
+    <setattribute xpath="/xui/ruleset[@name='default']/window_group[@name='toolbelt']/window[@name='HUDLeftStatBars']" name="anchor">
+        CenterBottom
+    </setattribute>
+
+    <!-- Центрирование правого блока -->
+    <setattribute xpath="/xui/ruleset[@name='default']/window_group[@name='toolbelt']/window[@name='HUDRightStatBars']" name="anchor">
+        CenterBottom
+    </setattribute>
+</configs>
+
